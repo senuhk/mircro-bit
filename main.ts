@@ -28,5 +28,6 @@ input.onButtonPressed(Button.B, function () {
         music.playTone(330, music.beat(BeatFraction.Whole))
         music.playTone(294, music.beat(BeatFraction.Whole))
         music.playTone(262, music.beat(BeatFraction.Whole))
+        music.rest(music.beat(BeatFraction.Double))
     }
 })
